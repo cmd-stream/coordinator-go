@@ -73,8 +73,8 @@ When started, `coordinator-go`:
 
 `Cmd.Exec()` may return:
 
-- `ErrCmdDelayed` — If one of the services is temporarily unavailable.
-- `ErrCmdBlocked` — If one of the services is unavailable for an extended
+- `ErrCmdDelayed` - If one of the services is temporarily unavailable.
+- `ErrCmdBlocked` - If one of the services is unavailable for an extended
   period (for example, when a circuit breaker is open).
 - Other errors - Will cause the coordinator to close the client connection
   (standard `cmd-stream-go` behavior).
