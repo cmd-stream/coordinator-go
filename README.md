@@ -3,7 +3,7 @@
 **coordinator-go** is a lightweight Saga Orchestrator built on top of the
 [cmd-stream-go](https://github.com/cmd-stream/cmd-stream-go) library. It
 provides a simple, pattern-based way to coordinate distributed operations
-without introducing complex infrastructure or new programming paradigms.
+without introducing complex infrastructure.
 
 > ⚠️ Experimental Project  
 > This project is experimental and not ready for production use.
